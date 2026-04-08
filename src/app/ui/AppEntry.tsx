@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./components/footer/Footer";
 import Index from "../routes/Index";
+import Navbar from "./components/navbar/Navbar";
 
 const AppEntry: React.FC = () => {
   const hideFooter =
@@ -9,6 +10,7 @@ const AppEntry: React.FC = () => {
 
   return (
     <div>
+      <Navbar />
       <Index />
       {!hideFooter && <Footer />}
     </div>
