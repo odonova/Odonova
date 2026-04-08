@@ -10,7 +10,7 @@ const AppEntry: React.FC = () => {
 
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Index />
       {!hideFooter && <Footer />}
     </div>
