@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "./components/footer/Footer";
 import Index from "../routes/Index";
-import Navbar from "./components/navbar/Navbar";
+// import Navbar from "./components/navbar/Navbar";
 
 const AppEntry: React.FC = () => {
   const hideFooter =
