@@ -11,7 +11,7 @@ import {
 } from "react-icons/lu";
 import Assets from "../../../utils/constant/Assets";
 
-// ─── Types ────────────────────────────────────────────────────────────────────
+// ─── Types
 
 interface DropdownChild {
   label: string;
@@ -26,29 +26,29 @@ interface NavItem {
   children?: DropdownChild[];
 }
 
-// ─── Nav Data ─────────────────────────────────────────────────────────────────
+// ─── Nav Data
 
 const NAV_ITEMS: NavItem[] = [
   {
     label: "Services",
-    href: "#services",
+    href: "",
     children: [
       {
         label: "Software Development",
-        href: "#software",
+        href: "/software-development",
         description: "Tailored digital products & platforms",
         icon: <LuCodepen size={18} />,
       },
       {
         label: "Data Annotation",
-        href: "#data-annotation",
+        href: "/data-annotation",
         description:
           "Experienced annotators. Strict QA. Data privacy guaranteed.",
         icon: <LuTag size={18} />,
       },
       {
         label: "Social Media Management",
-        href: "#social-media",
+        href: "/social-media-management",
         description: "Brand growth, content strategy & community management.",
         icon: <LuMegaphone size={18} />,
       },
